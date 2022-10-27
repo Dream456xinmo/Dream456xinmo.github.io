@@ -1,89 +1,157 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人介绍</title>
-    <link rel="stylesheet" href="style.css">
+	<head>
+		<meta charset="utf-8">
+		<title>faith星寞个人网页</title>
+		<style type="text/css">
+			/* CSS Document */
+			* {
+				margin: 0;
+				padding: 0;
+			}
 
-</head>
+			a {
+				text-decoration: none;
+			}
 
-<body>
-    <div id="bigbox">
-        <div id="banner">
-            <img src="picture/banner.png" alt="">
-        </div>
-        <nav>
-            <a class="dangqian" href="">首页</a>
-            <a href="duanwen.html">短文</a>
-            <a href="rizhi.html">日志</a>
-            <a href="liuyan.html">留言板</a>
-        </nav>
-        <div id="main">
-            <div id="main_left">
-                <h2>关于我</h2>
-                <img src="picture/me.png" alt="">
-                <p>
-                    <span>姓名</span>:faith星寞<br>
-                    <span>性别</span>:男<br>
-                    <span>爱好</span>:听歌 下棋 打游戏<br>
-                    <span>性格</span> :内向<br>
-                    <span>家乡</span>:贵州省<br>
-                    <span>专业</span>:计算机网络技术
-                </p>
-            </div>
-            <div id="main_right">
-                <h2>热爱生活</h2>
-                <p>
-                    一、岁月从来不曾静好，只是有人在替你背负枷锁，含泪前行。也许是父母，也许是朋友，也许是陌生人……无论是谁，请记得常怀感恩之心。
-                </p>
-                <p>
-                    二、这个世界并不完美，甚至有点残酷。你无法决定下一段旅途遇见的是好事还是坏事，可你能决定面对它们的态度。你看这个世界的角度，决定了这个世界给你的温度。
-                </p>
-                <p>
-                    三、总会有一件事让你瞬间长大，也总会有一个人让你泪如雨下。愿你早日领教这个世界的深深恶意，让自己活得开心得意。
-                </p>
-                <p>
-                    四、想要与众不同，却总随遇而安，想要做很多未做的事，却在现实棘手的吃喝拉撒前低下了头，我们间歇性热血满腔，长时间迷茫犯懒，别等了，再努力试试看！
-                </p>
-                <img src="picture/life.png" alt="">
-            </div>
-        </div>
-        <div id="luxing">
-            <h2>旅行生活</h2>
-            <div>
-                <div id="picture">
-                    <img src="picture/11.png" alt="">
-                    <p>在日月潭</p>
-                </div>
-                <div id="picture">
-                    <img src="picture/22.png" alt="">
-                    <p>
-                        在毛里求斯
-                    </p>
-                </div>
-                <div id="picture">
-                    <img src="picture/33.png" alt="">
-                    <p>
-                        在马尔代夫
-                    </p>
-                </div>
-                <div id="picture">
-                    <img src="picture/44.png" alt="">
-                    <p>
-                        在玉龙雪山
-                    </p>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <p>
-                版权所有©dream456xinmo
-            </p>
-        </footer>
-    </div>
-</body>
+			.clearfix:after {
+				content: "";
+				display: block;
+				height: 0;
+				visibility: hidden;
+				clear: both;
+			}
+
+			.clearfix {
+				*zoom: 1;
+			}
+
+			body {
+				background: url(https://gitee.com/vmu/cimg/raw/master/img/bg.jpg) no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+			}
+
+			.content {
+				width: 900px;
+				height: 500px;
+				margin: 200px auto 0 auto;
+				border-radius: 10px;
+				background-color: rgba(236, 236, 236, 0.59);
+				transition: all 1.0s;
+				/*box-shadow: 0px 0px 20px rgba(0,0,0,0.3);*/
+			}
+
+			.content img {
+				float: left;
+				width: 200px;
+				height: 200px;
+				margin: 150px 0 0 80px;
+				border-radius: 100px;
+
+			}
+
+			.content:hover {
+				box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.52);
+			}
+
+			.content_r {
+				float: right;
+				width: 500px;
+				margin: 80px 60px 0 0;
+				/*	background-color: pink;*/
+			}
+
+			.content_l {
+				float: left;
+				width: 100%;
+				text-align: center;
+			}
+
+			.content_l h5 {
+
+				font-size: 17px;
+			}
+
+			.cc {
+				margin-top: 10px;
+				color: #1F2023;
+				font-size: 18px;
+			}
+
+			.color_1 {
+				color: #4855EC;
+				font-size: 18px;
+			}
+
+			.deeppink {
+				color: deeppink;
+			}
+
+			.link {
+				margin-top: 30px;
+			}
+
+			.link a {
+				display: block;
+				float: left;
+				width: 120px;
+				height: 45px;
+				margin: 5px 5px 0 0;
+				/*	padding: 0 15px;*/
+				color: #fff;
+				line-height: 45px;
+				transition: all 0.8s;
+				/*	background-color: deeppink;*/
+
+			}
+
+			.link a:hover {
+				background-color: rgba(0, 201, 243, 0.35);
+			}
+
+			.deeppink_1 {
+				background-color: deeppink;
+			}
+
+			.dodgerblue {
+				background-color: dodgerblue;
+			}
+
+			.magenta {
+				background-color: magenta;
+			}
+
+			.orange {
+				background-color: orange;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="content">
+			<img src="https://gitee.com/vmu/cimg/raw/master/img/ch.jpg" alt="">
+			<div class="content_r clearfix">
+				<div class="content_l clearfix">
+					<h2>Hi~ 我是faith星寞， Welcome here ！</h2>
+					<p class="cc">欢迎来到我的主页，一位热爱编程的小渣渣~</p>
+					<p class="cc">爱好计算机，会去自学一些感兴趣的东西 !</p>
+					<br>
+					<p class="color_1">I am an ambitious salted fish!</p>
+					<p class="color_1">我是一位有野心的咸鱼!</p>
+					<br>
+					<p class="deeppink">只要路是对的，就不怕路远。</p>
+					<p class="deeppink">As long as the road is right, you are not afraid of the distance.</p>
+					<div class="link">
+						<a href="#" class="dodgerblue" target="_blank">官网</a>
+						<a href="https://ymjin.blog.csdn.net/" class="deeppink_1" target="_blank">QQ群</a>
+						<a href="https://ymjin.blog.csdn.net/" class="magenta" target="_blank">个人博客</a>
+						<a href="https://ymjin.blog.csdn.net/" class="orange" target="_blank">网易云音乐</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 
 </html>
