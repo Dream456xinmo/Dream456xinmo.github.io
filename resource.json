@@ -1,0 +1,169 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "https://erbot.cn/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://erbot.cn/static/js/jquery-1.11.1.min.js",
+                    "path": "js/jquery-1.11.1.min.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/bootstrap.min.js",
+                    "path": "js/bootstrap.min.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/bootstrapValidator.min.js",
+                    "path": "js/bootstrapValidator.min.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/modernizr.js",
+                    "path": "js/modernizr.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/jquery.easing.1.3.js",
+                    "path": "js/jquery.easing.1.3.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/jquery.baraja.js",
+                    "path": "js/jquery.baraja.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/jquery.vegas.min.js",
+                    "path": "js/jquery.vegas.min.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/jquery.bxslider.min.js",
+                    "path": "js/jquery.bxslider.min.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/jquery.ajaxchimp.min.js",
+                    "path": "js/jquery.ajaxchimp.min.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/jquery.nicescroll.min.js",
+                    "path": "js/jquery.nicescroll.min.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/jquery.nav.js",
+                    "path": "js/jquery.nav.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/jquery.appear.js",
+                    "path": "js/jquery.appear.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/jquery.fitvids.js",
+                    "path": "js/jquery.fitvids.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/js/custom.js",
+                    "path": "js/custom.js"
+                },
+                {
+                    "url": "https://erbot.cn/static/css/bootstrap.css",
+                    "path": "css/bootstrap.css",
+                    "children": []
+                },
+                {
+                    "url": "https://erbot.cn/static/css/font-awesome.min.css",
+                    "path": "css/font-awesome.min.css",
+                    "children": [
+                        {
+                            "url": "https://erbot.cn/static/fonts/fontawesome-webfont.eot?v=4.2.0",
+                            "path": "fonts/fontawesome-webfont.eot"
+                        },
+                        {
+                            "url": "https://erbot.cn/static/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0",
+                            "path": "fonts/fontawesome-webfont_1.eot"
+                        },
+                        {
+                            "url": "https://erbot.cn/static/fonts/fontawesome-webfont.woff?v=4.2.0",
+                            "path": "fonts/fontawesome-webfont.woff"
+                        },
+                        {
+                            "url": "https://erbot.cn/static/fonts/fontawesome-webfont.ttf?v=4.2.0",
+                            "path": "fonts/fontawesome-webfont.ttf"
+                        },
+                        {
+                            "url": "https://erbot.cn/static/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular",
+                            "path": "images/fontawesome-webfont.svg"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://erbot.cn/static/css/linea-icon.css",
+                    "path": "css/linea-icon.css",
+                    "children": [
+                        {
+                            "url": "https://erbot.cn/static/fonts/linea-basic-10.eot",
+                            "path": "fonts/linea-basic-10.eot"
+                        },
+                        {
+                            "url": "https://erbot.cn/static/fonts/linea-basic-10.woff",
+                            "path": "fonts/linea-basic-10.woff"
+                        },
+                        {
+                            "url": "https://erbot.cn/static/fonts/linea-basic-10.ttf",
+                            "path": "fonts/linea-basic-10.ttf"
+                        },
+                        {
+                            "url": "https://erbot.cn/static/fonts/linea-basic-10.svg#linea-basic-10",
+                            "path": "images/linea-basic-10.svg"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://erbot.cn/static/css/fancy-buttons.css",
+                    "path": "css/fancy-buttons.css"
+                },
+                {
+                    "url": "https://erbot.cn/static/css/animate.css",
+                    "path": "css/animate.css"
+                },
+                {
+                    "url": "https://erbot.cn/static/css/jquery.vegas.css",
+                    "path": "css/jquery.vegas.css",
+                    "children": [
+                        {
+                            "url": "https://erbot.cn/static/images/loading.gif",
+                            "path": "images/loading.gif"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://erbot.cn/static/css/baraja.css",
+                    "path": "css/baraja.css"
+                },
+                {
+                    "url": "https://erbot.cn/static/css/jquery.bxslider.css",
+                    "path": "css/jquery.bxslider.css",
+                    "children": []
+                },
+                {
+                    "url": "https://erbot.cn/static/css/style.css",
+                    "path": "css/style.css",
+                    "children": []
+                },
+                {
+                    "url": "https://erbot.cn/static/css/responsive.css",
+                    "path": "css/responsive.css"
+                },
+                {
+                    "url": "https://erbot.cn/static/css/schemes/gray.css",
+                    "path": "css/gray.css"
+                }
+            ]
+        }
+    ],
+    "failures": []
+}
