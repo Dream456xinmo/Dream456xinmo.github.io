@@ -154,7 +154,7 @@ li {
 
 .section-overlay {
     /*background: rgba(0, 0, 0, .7) !important;*/
-    background-image: url("https://img.tt98.com/d/file/tt98/2019091605418924/5d722d519740d.jpg");
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 5;

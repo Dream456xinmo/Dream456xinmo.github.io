@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的世界服务器</title>
+<style type="text/css">
+body {
+	background-image: url(bj.jpg);
+	background-repeat: no-repeat center center;
+	background-attachment:fixed;
+	background-size:cover;
+}
+body,td,th {
+	color: #000000;
+}
+</style>
+</head>
+
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+  $.ajax({
+      url: 'https://api.imlazy.ink/mcapi/?host=mc3.mc00.top&port=25565&type=json',
+      type: 'get',
+      dataType: 'json',  
+      crossDomain: true,
+       success: function(response, status){
+                      console.log('请求生存服数据：' + status);
+                      console.log(response);
+                      $('#scplayer').replaceWith(response.players_online + ' 人');//在线玩家
+                      $('#scstatus').replaceWith( response.status);//服务器开启或关闭状态
+                  },
+      data: {},
+  });
+  </script>
+  
+<script>
+  $.ajax({
+      url: 'https://api.imlazy.ink/mcapi/?host=xingmo123mLgF.aternos.me&port=51598&type=json',
+      type: 'get',
+      dataType: 'json',  
+      crossDomain: true,
+       success: function(response, status){
+                      console.log('请求生存服数据：' + status);
+                      console.log(response);
+                      $('#scplayer1').replaceWith(response.players_online + ' 人');//在线玩家
+                      $('#scstatus1').replaceWith( response.status);//服务器开启或关闭状态
+                  },
+      data: {},
+  });
+  </script>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td align="center"><p>&nbsp;</p>
+      <p style="font-size: 36px; color: #27F0AE; text-align: center; font-family: '微软雅黑', '黑体';"><strong>我的世界 服务器</strong></p>
+      <p>&nbsp;</p></td>
+    </tr>
+  </tbody>
+</table>
+<table width="100%" border="0" cellspacing="50" cellpadding="50">
+  <tbody>
+    <tr>
+      <td bgcolor="#FFFFFF"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >
+        <tbody>
+          <tr>
+            <td><table width="100%" border="0" align="center" cellpadding="10" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td width="72%" style="color: #000000"><p>服务器1   　   　作者：laosun<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务器：mc3.mc00.top </p></td>
+                  <td width="28%" align="center" style="text-align: right"><div>当前服务器:<span id="scstatus">检测中</span> 人数：<span id="scplayer"></span></div></td>
+                </tr>
+              </tbody>
+            </table></td>
+          </tr>
+        </tbody>
+      </table>
+        <table width="100%" border="0" align="center" cellpadding="10" cellspacing="0">
+          <tbody>
+            <tr>
+              <td width="72%" style="color: #000000">服务器2   　   　作者：xingmo<br>              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务器：xingmo123mLgF.aternos.me </td>
+              <td width="28%" align="center" style="text-align: right"><div>当前服务器:<span id="scstatus1">检测中</span> 人数：<span id="scplayer1"></span></div></td>
+            </tr>
+          </tbody>
+        </table>
+      <p>&nbsp;</p></td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
