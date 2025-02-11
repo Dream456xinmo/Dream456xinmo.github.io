@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff); /* 清新的浅蓝色到白色渐变 */
+    color: #333; /* 文字颜色保持深色，以适应浅色背景 */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95); /* 半透明白色背景 */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* 添加模糊效果，让背景渐变更加柔和 */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* 使用清新的蓝色调 */
+}
+
+.update-log {
+    margin-top: 20px;
+}
+
+.log-item {
+    margin-bottom: 20px;
+}
+
+.version-tag {
+    display: inline-block;
+    background-color: #007bff; /* 蓝色标签 */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.log-content {
+    background-color: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.log-content h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.log-content p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.log-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+}
+
+.log-content li {
+    margin-bottom: 5px;
+}
+
+.log-content h3 {
+    margin-top: 15px;
+    color: #007bff; /* 清新的蓝色调 */
+}

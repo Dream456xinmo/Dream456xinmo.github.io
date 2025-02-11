@@ -156,10 +156,10 @@ li {
     /*background: rgba(0, 0, 0, .7) !important;*/
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover; /* 或者使用 contain; 根据需要选择 */
+    background-position: center; /* 确保图像居中显示 */
     z-index: 5;
 }
-
 
 /* --------------- Pre Loader Styles --------------- */
 
@@ -241,11 +241,11 @@ li {
     height: 80px;
     z-index: 1025;
     transition: all .3s ease-in;
-    background: rgba(0, 0, 0, .15);
+    background: rgba(0, 0, 0, 0.356);
 }
 
 .nav-bg {
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, 0);
 }
 
 .site-name {

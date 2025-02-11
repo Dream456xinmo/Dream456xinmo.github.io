@@ -1,0 +1,68 @@
+/* 全局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 标题和logo样式 */
+h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 img {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* 按钮样式 */
+.button1 {
+    background-color: #0059ff;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+    background-color: #0043cc;
+}
+
+.button1:active {
+    background-color: #9b9b9b56;
+    color: black;
+}
+
+/* 列表和定义列表样式 */
+ul, dl {
+    list-style: none;
+    padding: 0;
+}
+
+li, dd {
+    margin-bottom: 10px;
+}
+
+/* 图片样式 */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 水平线样式 */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
